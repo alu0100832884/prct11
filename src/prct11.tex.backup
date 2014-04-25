@@ -1,0 +1,3 @@
+\documentclass[opciones]{estilo}
+\usepackage[opciones]{...}
+\begin{document}

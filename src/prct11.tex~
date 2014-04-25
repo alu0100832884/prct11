@@ -1,0 +1,242 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación con Beamer]{Presentación del numero pi con Beamer}
+\author[Sara Luis Farrais]{Sara Luis Farrais}
+\date[25-03-2014]{25 de marzo de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc}
+  \hspace*{7.0cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+
+\section{Nombre}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+\begin{definicion}
+
+ π (pi) es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. Es un número irracional y una de las constantes matemáticas más importantes. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de π, truncado a sus primeras cifras, es el siguiente:
+
+    \pi \approx 3,14159265358979323846 \; \dots 
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Historia}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Segunda Sección}
+
+\begin{block}{Historia}
+  \begin{itemize}
+  \item
+La búsqueda del mayor número de decimales del número π ha supuesto un esfuerzo constante de numerosos científicos a lo largo de la historia. Algunas aproximaciones históricas de π son las siguientes.
+Antiguo Egipto
+Detalle del papiro Rhind.
+
+
+ \pause
+
+  \item
+  El valor aproximado de π en las antiguas culturas se remonta a la época del escriba egipcio Ahmes en el año 1800 a. C., descrito en el papiro Rhind,5 donde se emplea un valor aproximado de π afirmando que el área de un círculo es similar a la de un cuadrado cuyo lado es igual al diámetro del círculo disminuido en 1/9; es decir, igual a 8/9 del diámetro. En notación moderna:
+
+    S = \pi r^2 \simeq \left ( \frac{8}{9} \cdot d \right )^2 = \frac{64}{81} d^2 = \frac{64}{81} \left(4 r^2\right) 
+
+    \pi \simeq \frac{256}{81} = 3{,}16049 \ldots 
+
+Entre los ocho documentos matemáticos hallados de la antigua cultura egipcia, en dos se habla de círculos. Uno es el papiro Rhind y el otro es el papiro de Moscú. Sólo en el primero se habla del valor aproximado del número π. El investigador Otto Neugebauer, en un anexo de su libro The Exact Sciences in Antiquity,6 describe un método inspirado en los problemas del papiro de Ahmes para averiguar el valor de π, mediante la aproximación del área de un cuadrado de lado 8, a la de un círculo de diámetro 8.
+  \pause
+
+  
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Definicion y caracterización}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Diapositivas}
+
+\begin{definition}
+  Euclides fue el primero en demostrar que la relación entre una circunferencia y su diámetro es una cantidad constante.18 No obstante, existen diversas definiciones del número \pi, pero las más común es:
+
+    \pi es la razón entre la longitud de cualquier circunferencia y la de su diámetro.
+
+Además \pi es:
+
+    El área de un círculo unitario (de radio que tiene longitud 1, en el plano geométrico usual o plano euclídeo).
+    El menor número real x positivo tal que \sin(x) = 0.
+
+\end{definicion}
+
+\begin{definicion}
+También es posible definir analíticamente \pi; dos definiciones son posibles:
+
+    La ecuación sobre los números complejos e^{ix}+1=0 admite una infinidad de soluciones reales positivas, la más pequeña de las cuales es precisamente \pi (véase identidad de Euler).
+    La ecuación diferencial S''(x)+S(x)=0 con las condiciones de contorno S(0)=0, S'(0)=1 para la que existe solución única, garantizada por el teorema de Picard-Lindelöf, es un función analítica (la función trigonométrica \sin(x)) cuya raíz positiva más pequeña es precisamente \pi.
+
+    A través de una integral definida se obtiene el valor de π/4. Se integra la función f(x) = 1/ ( 1 + x2) de 0 a 1.19
+
+    Todos los ensayos estadísticos realizados sobre la sucesión de los dígitos decimales de pi han corroborado su carácter aleatorio. No hay orden ni regularidd, hay varias series de 7777 y la chocante 999999, hay apariciones que confunden o agradan a los intuicionistas.
+ 
+\end{definition}
+
+\begin{example}
+  \begin{itemize}
+    \item <1-> Primero \pause
+    \item <2-> Segundo \pause
+    \item <3-> Tercero \pause
+    \item <4-> Cuarto  
+  \end{itemize}
+\end{example}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Ejemplos de fórmulas matemáticas en las que aparece el número pi}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Fórmulas matemáticas en las que aparece el número pi}
+
+\begin{formulas matematicas en las que aparece el numero pi}
+En análisis matemático
+
+    Fórmula de Leibniz:
+
+        \sum_{n=0}^{\infty }{{{\left(-1\right)^{n}}\over{2\,n+1}}}=\frac{1}{1} - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \cdots = \frac{\pi}{4} 
+
+    Producto de Wallis:
+
+        \prod_{n=1}^{\infty} \left(\frac{2n}{2n-1}\cdot\frac{2n}{2n+1}\right) = \frac{2}{1} \cdot \frac{2}{3} \cdot \frac{4}{3} \cdot \frac{4}{5} \cdot \frac{6}{5} \cdot \frac{6}{7} \cdot \frac{8}{7} \cdot \frac{8}{9} \cdots = \frac{\pi}{2} 
+
+    Euler:
+
+        \sum_{n=0}^{\infty }\cfrac{2^n n!^2}{(2n + 1)!}=1 + \frac{1}{3} + \frac{1 \cdot 2}{3 \cdot 5} + \frac{1 \cdot 2 \cdot 3}{3 \cdot 5 \cdot 7} + \cdots = \frac{\pi}{2} 
+
+    Identidad de Euler
+
+        e^{\pi i} + 1 = 0\; 
+ \end{Ejemplos de fórmulas matemáticas en las que aparece el número pi}
+
+ \begin{formulas matematicas en las que aparece el numero pi}
+  En geometría
+
+    Longitud de la circunferencia de radio r: C = 2 π r
+
+Áreas de secciones cónicas:
+
+    Área del círculo de radio r: A = π r²
+    Área interior de la elipse con semiejes a y b: A = π ab
+
+Áreas de cuerpos de revolución:
+
+    Área del cilindro: 2 π r (r+h)
+    Área del cono: π r² + π r g
+    Área de la esfera: 4 π r²
+ \end{Ejemplos de fórmulas matemáticas en las que aparece el número pi}
+ 
+ \begin{Ejemplos de fórmulas matemáticas en las que aparece el número pi}
+ En cálculo
+
+    Área limitada por la astroide: (3/8) π a2 
+    Área de la región comprendida por el eje X y un arco de la cicloide: 3 π a2
+    Área encerrada por la cardioide: (3/2) π a2
+    Área de la región entre el eje polar y las dos primeras vueltas de la espiral de Arquímedes r = aα  es 8π3 a2
+    Área entre la curva de Agnesi y la asíntota es S = πa2. 
+    Cisoide
+    Estrofoide
+    Caracol de Pascal. El área usando esta curva y cualquiera de las anteriores lleva en la fórmula el valor de pi 
+ 
+ 
+ 
+ \end{Ejemplos de fórmulas matemáticas en las que aparece el número pi}
+\end{Ejemplos de fórmulas matemáticas en las que aparece el número pi}
+
+\begin{ejemplo}
+  \begin{enumerate}
+    \item
+      Primero
+      \pause
+
+    \item
+      Segundo 
+
+  \end{enumerate}
+\end{ejemplo}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Plan Estudios, 2011]{plan}  
+    Documento de verificación del grado. 
+    (2011) 
+
+    \beamertemplatebookbibitems
+    \bibitem[Guía Docente, 2013]{guia}  
+    Guía docente. 
+    (2013) 
+    {\small wikipedia .com}
+
+   
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\end{document}
